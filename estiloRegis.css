@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Rubik';
+}
+
+main{
+    
+    background: #393E46;
+}
+
+/*---------------------------------------------- cambio encabezado*/
+.titulo {
+    width: 100%;
+    height: 90px;
+}
+
+.h1 {
+    color: white;
+}
+
+.h2 {
+    margin-right: 20px;
+    color: white;
+}
+
+/*----------------------------------------------*/
+.uno {
+    /*fondo derecho del gif*/
+    width: 40%;
+    margin: 35px 35px 60px 70px;
+}
+
+.ima {
+    /*propiedades del gif*/
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*------------------------------------------------*/
+.dos {
+    /*fondo dos de registrar*/
+
+    width: 30%;
+    height: 600px;
+    margin: 45px 0 0 60px;
+    border-radius: 10px;
+}
+
+.titreg {
+    /*propiedades del titulo registrar*/
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.btn1 {
+    /*boton 1*/
+    float: left;
+    width: 25%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.btn2 {
+    /*boton 2*/
+    float: right;
+    width: 25%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.barra {
+    /*propiedades de text*/
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid #ECB365;
+}
+
+Label {
+    font-size: 20px;
+    color: white;
+}
+
+/*pie de pag ------------------------------------------------*/
+.foter {
+    background-color: rgb(87, 86, 86);
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*General tamaño de los contenedores*/
+.contenedor{
+    padding: 10px 0;
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+/*General tamaño de los titulos y color de los mismos*/
+
+.titulo{
+    color: #EEEEEE;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+/*footer*/
+
+footer{
+    background: #222831;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.contenedor-footer .sociales > a{
+    color: #ECB365;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+  
+}
+
+.contenedor-footer .copy{
+    color: #ECB365;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin:auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ECB365;
+
+}
+
+
+button {
+ background: #ECB365;
+ font-family: inherit;
+ padding: 0.6em 1.3em;
+ font-weight: 900;
+ font-size: 12px;
+ border: 3px solid black;
+ border-radius: 0.4em;
+ box-shadow: 0.1em 0.1em;
+ margin-top: -5px;
+
+ align-items: center;
+
+}
+
+button:hover {
+ transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+ transform: translate(0.05em, 0.05em);
+ box-shadow: 0.05em 0.05em;
+}
+
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #222831;  
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    }    
+
+nav{
+    text-align: right;
+    padding: 15px 50px 0 0;
+}
+
+nav > a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*posision del logo*/
+header .textos-header{
+    position: absolute;
+    top: 25%;
+    left: 01%;
+    transform: translate(-10%, -10%);
+    text-align: left;
+}
+
+/*color del logo y tamano*/
+.textos-header h1{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+}

@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik';
+}
+
+main {
+    background: #393E46;
+}
+
+
+/*----------------------------------------------------*/
+
+.titulo {
+    color: #EEEEEE;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.h1 {
+    color: white;
+    /*cambio del menu titulo logo encabezado*/
+    float: left;
+}
+
+.h2 {
+    float: right;
+    color: white;
+    margin-right: 20px;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #222831;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 15px 50px 0 0;
+}
+
+nav>a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/*posision del logo*/
+
+header .textos-header {
+    position: absolute;
+    top: 25%;
+    left: 01%;
+    transform: translate(-10%, -10%);
+    text-align: left;
+}
+
+
+/*color del logo y tamano*/
+
+.textos-header h1 {
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+
+/*----------------------------------------------------*/
+
+.datos {
+    align-items: center;
+    padding: 20px;
+    width: 35%;
+    height: 490px;
+    border: #ECB365 solid 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ECB365;
+    background: #ECB365;
+    float: left;
+}
+
+.datos2 {
+    align-items: center;
+    background: #393E46;
+    padding: 20px;
+    width: 100%;
+    height: 670px;
+    margin: 0 auto;
+    margin-left: 0px;
+    border: #ECB365 solid 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ECB365;
+    margin-top: 20px;
+    background: #393E46;
+}
+
+.oo {
+    /*titulo usuario*/
+    text-align: center;
+    color: white;
+    margin: 0 0 0 5px;
+}
+
+.foto {
+    /*fonde de div de la foto*/
+    width: 175px;
+    height: 175px;
+    border: solid;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fil {
+    width: 200px;
+    margin: 15px auto;
+}
+
+.tres {
+    width: 96%;
+    height: 285px;
+    /*div de fondo de los datos*/
+    margin: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+.dos {
+    border: #ECB365 solid 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ECB365;
+    background-color: #ECB365;
+    padding: 15px 20px 0 20px;
+    width: 55%;
+    /*Fondo dos a la derecha*/
+    height: 490px;
+    float: left;
+}
+
+.cuatro {
+    width: 96%;
+    /*div fondo experiencia de trabajo*/
+    height: 205px;
+    margin: 10px;
+}
+
+.cuatrodos {
+    width: 96%;
+    /*Fondo de datos profecion y años*/
+    height: 195px;
+    margin: 10px;
+}
+
+
+/*----------------------------------------------------*/
+
+.aa {
+    margin: 0;
+    background: #393E46;
+    width: 99%;
+    height: 25px;
+    /*fondo donde ban los datos de el usuario*/
+    border-style: none;
+    border-radius: 8px;
+    padding: 4px 0 0 5px;
+    color: white;
+}
+
+.ee {
+    /*titulos de fondo aa*/
+    margin: 8px 0 3px 0;
+    color: white;
+}
+
+.ii {
+    padding: 10px;
+    margin: 30px 0 0 0;
+    background: #393E46;
+    width: 100%;
+    /*fondo del texto grande */
+    height: 150px;
+    border-style: none;
+    border-radius: 8px;
+    overflow: auto;
+    color: white;
+}
+
+
+/*----------------------------------------------------*/
+
+.edit {
+    /*flotante de editar, fondo*/
+    position: fixed;
+    left: 20%;
+    top: 2%;
+    padding: 30px;
+    border: solid;
+    width: 60%;
+    height: 540px;
+    background-color: rgba(43, 45, 46, 0.966);
+    border-radius: 30px;
+    display: none;
+}
+
+.texto {
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    /*fondo de textarea*/
+    resize: vertical;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+Label {
+    font-size: 20px;
+    color: white;
+}
+
+.barra {
+    width: 100%;
+    height: 25px;
+    /*barras  text*/
+    font-size: 15px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
+/*----------------------------------------------------*/
+
+.btn {
+    /*botones*/
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/*----------------------------------------------------*/
+
+.trabajos {
+    /*fondo de trabajos*/
+    padding: 50px;
+    width: 100%;
+    height: 1000px;
+    margin: 100px auto;
+    background: #393E46;
+}
+
+.ie {
+    padding: 10px;
+    margin: 30px 0 0 0;
+    background: #222831;
+    width: 100%;
+    /*fondo del texto grande */
+    height: 100%;
+    border-style: none;
+    border-radius: 8px;
+    overflow: auto;
+    color: white;
+    border: #ECB365 solid 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ECB365;
+    margin-top: 20px;
+}
+
+.fottrab {
+    /*donde va ir las fotos*/
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+
+/*----------------------------------------------------*/
+
+.barrauno {
+    width: 100%;
+    height: 10px;
+    border: solid;
+}
+
+.barrados {
+    width: 50%;
+    height: 10px;
+    background-color: aqua;
+    transition: width 2s;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*General tamaño de los contenedores*/
+
+.contenedor {
+    padding: 10px 0;
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*General tamaño de los titulos y color de los mismos*/
+
+.titulo {
+    color: #EEEEEE;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/*footer*/
+
+footer {
+    background: #222831;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenedor-footer .sociales>a {
+    color: #ECB365;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.contenedor-footer .copy {
+    color: #ECB365;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ECB365;
+}
+
+button {
+    background: #ECB365;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 12px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-top: -5px;
+    align-items: center;
+}
+
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}

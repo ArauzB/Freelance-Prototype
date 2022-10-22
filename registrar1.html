@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link href="estiloRegis.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<!------------------------------------------------------------------------>
+
+<body>
+
+    <!--Encabezado cambio-->
+    <header>
+        <section class="textos-header">
+            <h1>FreeLance</h1>
+        </section>
+    </header>
+
+
+    <main>
+        <!--imagen gif-->
+        <section class="contenedor">
+            <div class="uno">
+                <img class="ima" src="https://magustechnologies.com/assets/images/app.gif">
+            </div>
+
+            <!--derecha datos-->
+            <div class="dos">
+                <form method="POST" action="conectUsu.php">
+                    <table>
+
+                        <!--titulo-->
+                        <h1 class="titulo">Registrar</h1>
+
+                        <label>Usuario</label><br>
+                        <input name="Usuario" class="barra" type="text" id="email"><br><br>
+                        <label>Correo</label><br>
+                        <input name="Email" class="barra" type="email" id="email"><br><br>
+
+                        <label>Contraseña</label><br>
+                        <input name="Contra" class="barra" type="password" id="password"><br><br>
+
+                        <label>Confirmar Contraseña</label><br>
+                        <input name="Contra1" class="barra" type="password" id="password"><br><br><br>
+
+                        <!--botones-->
+                        <button type="submit" class="btn2" value="Registrar" name="regis"> Registrar </button>
+
+                    </table>
+                </form>
+
+                <a href="index.php"><button class="btn1"> Cancelar</button></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <p class="copy">Todos los derechos reservados &copy;</p>
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com/" class="links">Servicios</a>
+            <a href="https://www.instagram.com/" class="links">Acerca De</a>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
